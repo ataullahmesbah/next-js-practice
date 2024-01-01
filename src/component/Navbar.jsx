@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NavLink from '@/component/NavLink';
 
 const navLinks = [
     {
@@ -33,7 +34,9 @@ const Navbar = () => {
                 {
                     navLinks.map(({ path, title }) => (
                         <li className="mx-2" key={path}>
-                            <Link href={path}>{title}</Link>
+                            <NavLink
+                                exact={path == '/'}
+                                activeClassName="text-orange-500" href={path}>{title}</NavLink>
                         </li>
                     ))}
             </ul>
