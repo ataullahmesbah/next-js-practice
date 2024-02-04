@@ -1,14 +1,14 @@
 'use client'
 
 import { useParams, useSearchParams } from "next/navigation";
-import { title } from "process";
+
 
 const SingleBlog = ({ params, searchParams }) => {
     const [year, id] = params.segments || [];
     const params2 = useParams();
     const searchParams2 = useSearchParams();
 
-    console.log(params2.segments,  searchParams2.get("title"));
+    // console.log(params2.segments.split('/'), searchParams2.get("title"));
 
 
 

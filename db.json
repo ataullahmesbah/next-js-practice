@@ -1,0 +1,40 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Exploring all the Wonders of Nature",
+            "description": "Embark on a journey through lush forests, majestic mountains, and serene lakes. Discover the beauty of diverse ecosystems and the fascinating creatures that call them home.",
+            "likes_count": 257
+        },
+        {
+            "id": 2,
+            "title": "The Art of Culinary Excellence",
+            "description": "Indulge your senses in a culinary adventure featuring exquisite flavors and innovative dishes. From traditional recipes to modern gastronomy, experience the joy of diverse cuisines.",
+            "likes_count": 9812
+        },
+        {
+            "id": 3,
+            "title": "Mindful Meditation for Inner Peace",
+            "description": "Embark on a journey of self-discovery and tranquility. Explore mindfulness and meditation techniques to cultivate a peaceful mind, reduce stress, and enhance overall well-being.",
+            "likes_count": 1500
+        },
+        {
+            "id": 4,
+            "title": "Capturing Moments: Photography Tips",
+            "description": "Unleash your creativity with photography. Learn essential techniques, composition rules, and editing tricks to capture breathtaking moments and tell compelling visual stories.",
+            "likes_count": 85
+        },
+        {
+            "id": 5,
+            "title": "Tech Trends: Innovations Shaping the Future",
+            "description": "Stay ahead in the ever-evolving world of technology. Explore groundbreaking innovations, from artificial intelligence and blockchain to the latest advancements in robotics and space exploration.",
+            "likes_count": 200
+        },
+        {
+            "id": 6,
+            "title": "Fitness Fusion: Holistic Wellness",
+            "description": "Embrace a holistic approach to fitness, combining physical activity, nutrition, and mindfulness. Discover personalized wellness routines that empower you to achieve your fitness goals.",
+            "likes_count": 112
+        }
+    ]
+}
