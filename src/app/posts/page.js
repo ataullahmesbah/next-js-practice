@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import styles from './Posts.module.css'
+
 
 const PostsPage = async () => {
 
@@ -15,7 +17,7 @@ const PostsPage = async () => {
 
     return (
         <div className="w-full">
-            <h1>Total Posts this sites::: {posts.length}</h1>
+            <h1 className={styles.header_text}>Total Posts this sites: {posts.length}</h1>
             {
                 posts.map((post) => (
                     <div key={post.id}
